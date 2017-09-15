@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>SpiffyResources.html</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+  <servlet-name>remoteLoggingServiceImpl</servlet-name>
+  <servlet-class>com.google.gwt.libideas.logging.server.RemoteLoggingServiceImpl</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>remoteLoggingServiceImpl</servlet-name>
+  <url-pattern>/panelstreamer/logging</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

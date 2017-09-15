@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/darkflame/client/SpiffyGWT/SpiffyAnimatedIcon_old.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-incubator-20100204-r1747.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-canvas-0.4.0.jar"/>
+<<<<<<< .mine
+	<classpathentry kind="lib" path="C:/Work/Libraries/matheclipse-parser-0.0.10.jar"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Work/Libraries/guava-18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Work/Libraries/guava-gwt-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Libraries/GoneVertical.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Libraries/gwt-lzma-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Libraries/gwt-voices-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Libraries/gwt-log-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Libraries/gwt-lzma-1.2"/>
+||||||| .r109
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/matheclipse-parser-0.0.10.jar"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava/guava-gwt-18.0.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/GoneVertical.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-lzma-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-log-3.1.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/E:/TomsProjects/Google%20GWT/gwt-log-3.1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-lzma-1.2"/>
+=======
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-lzma-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-log-3.1.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/E:/TomsProjects/Google%20GWT/gwt-log-3.1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/gwt-lzma-1.2"/>
+>>>>>>> .r125
+	<classpathentry combineaccessrules="false" kind="src" path="/supersimplesemantics"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/matheclipse-parser-0.0.10.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava-gwt-20.0.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava-20.0.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/error_prone_annotations-2.0.14-sources.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/j2objc-annotations-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/jsr305-3.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/error_prone_annotation-2.0.14.jar" sourcepath="E:/TomsProjects/Google GWT/guava dependancys/error_prone_annotations-2.0.14-sources.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/j2objc-annotations-1.1.jar" sourcepath="E:/TomsProjects/Google GWT/guava dependancys/j2objc-annotations-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/TomsProjects/Google GWT/guava dependancys/jsr305-1.3.9.jar" sourcepath="E:/TomsProjects/Google GWT/guava dependancys/jsr305-3.0.1-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GoneVertical-Core"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

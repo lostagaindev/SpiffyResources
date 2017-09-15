@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6.4//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.4/distro-source/core/src/gwt-module.dtd">
+<module rename-to='SpiffyResources'>
+    
+    <!--  for spiffycalculator -->
+  <inherits name='org.matheclipse.parser.Parser'/>
+    
+	<!--  for compression (apache 2.0 lisence) -->
+	<!--  Note; for use in non-gwt things we need to make our own version that doesnt use gwts Schedule repeating -->
+	<!-- <inherits name='org.dellroad.lzma.LZMA'/> -->
+	
+	
+</module>
