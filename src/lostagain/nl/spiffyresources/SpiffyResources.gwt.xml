@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6.4//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.4/distro-source/core/src/gwt-module.dtd">
 <module rename-to='SpiffyResources'>
+
+
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
   <inherits name='org.matheclipse.parser.Parser'/>
@@ -50,13 +52,15 @@
 	<inherits name='org.dellroad.lzma.LZMA'/>
 	
   <!-- Specify the app entry point class.                         -->  
-  <entry-point class='com.darkflame.client.SpiffyResources'/>
+  <entry-point class='lostagain.nl.spiffyresources.client.SpiffyResources'/>
   
   <!--  image resources -->
   <resource path="client"/>  
   <resource path="client.SpiffyGWT"/>  
-  
 
+<source path="client" />
+<source path="interfaces" />
+ 
   		  <!-- Opera needs a different implementation due to issue #3956 --> 
   <replace-with class="com.google.gwt.user.client.impl.HistoryImplTimer"> 
     <when-type-is class="com.google.gwt.user.client.impl.HistoryImpl"/> 
